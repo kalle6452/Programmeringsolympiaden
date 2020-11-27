@@ -1,0 +1,18 @@
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+    int päron_pris = 13;
+    int äpplen_pris = 7;
+    int antal_äpplen = 13;
+int antal_päron = 7;
+int antal_kr_päron = antal_päron * päron_pris;
+int antal_kr_äpplen = antal_äpplen * äpplen_pris;
+if (antal_kr_päron > antal_kr_äpplen)
+Console.WriteLine("Petra tjänade mest. ");
+else if (antal_kr_päron < antal_kr_äpplen)
+Console.WriteLine("Axel tjänade mest. ");
+else
+Console.WriteLine("lika ");
+  }
+}
