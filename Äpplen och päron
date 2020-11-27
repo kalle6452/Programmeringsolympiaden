@@ -4,10 +4,14 @@ class MainClass {
   public static void Main (string[] args) {
     int päron_pris = 13;
     int äpplen_pris = 7;
-    int antal_äpplen = 15;
-int antal_päron = 8;
-int antal_kr_päron = antal_päron * päron_pris;
-int antal_kr_äpplen = antal_äpplen * äpplen_pris;
+    Console.WriteLine("Hur många äpplen har Axel sålt? ");
+    string antal_äpplen = Console.ReadLine();
+    int antal_äpplen1 = int.Parse(antal_äpplen);
+    Console.WriteLine("Hur många päron har Petra sålt? ");
+    string antal_päron = Console.ReadLine();
+    int antal_päron1 = int.Parse(antal_päron);
+int antal_kr_päron = antal_päron1 * päron_pris;
+int antal_kr_äpplen = antal_äpplen1 * äpplen_pris;
 if (antal_kr_päron > antal_kr_äpplen)
 Console.WriteLine("Petra ");
 else if (antal_kr_päron < antal_kr_äpplen)
@@ -16,3 +20,9 @@ else
 Console.WriteLine("lika ");
   }
 }
+
+
+
+
+
+
