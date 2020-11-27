@@ -1,1 +1,22 @@
-
+Antal öar: 20st
+1 häxameter(H) = 10^12
+using System;
+class MainClass {
+  public static void Main (string[] args) {
+  int N = 20;
+  double H = Math.Pow(10, 12);
+int K = 1;
+int d1 = 5;
+int d2 = 10;
+int d3 = 15;
+int d4 = 20;
+int d5 = 25;
+int d6 = 30;
+int d7 = 35;
+int d8 = 40;
+int d9 = 45;
+int avstånd = d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9;
+double resa1 = H * d1;
+Console.WriteLine(resa1);
+  }
+}
