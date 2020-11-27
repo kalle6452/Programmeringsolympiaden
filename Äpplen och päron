@@ -21,8 +21,64 @@ Console.WriteLine("lika ");
   }
 }
 
+using System;
 
+class MainClass {
+  public static void Main (string[] args) {
+Console.WriteLine("Skriv in dina första 6 siffror i ditt personnummer ");
+string personnummer = Console.ReadLine();
+int personNummer = int.Parse(personnummer);
+Console.WriteLine("Skriv in dina fyra sista siffror ");
+string fyra_sista = Console.ReadLine();
+int fyra_Sista = int.Parse(fyra_sista);
+int hela_personnummer = personNummer + fyra_Sista;
+if (hela_personnummer < 201127+9999);
+Console.WriteLine("Du är född före 1920 "); 
+if (hela_personnummer > 201127-9999)
+Console.WriteLine("Du är född efter 1920 ");
+  }
+}
+/*Antal öar: 20st
+1 häxameter(H) = 10^12
+using System;
+class MainClass {
+  public static void Main (string[] args) {
+  int N = 20;
+  double H = Math.Pow(10, 12);
+int K = 1;
+int d1 = 5;
+int d2 = 10;
+int d3 = 15;
+int d4 = 20;
+int d5 = 25;
+int d6 = 30;
+int d7 = 35;
+int d8 = 40;
+int d9 = 45;
+int avstånd = d1 + d2 + d3 + d4 + d5 + d6 + d7 + d8 + d9;
+double resa1 = H * d1;
+Console.WriteLine(resa1);
+  }
+}
+*/
 
+using System;
 
+class MainClass {
+  public static void Main (string[] args) {
+Console.WriteLine("Skriv in dina första 6 siffror i ditt personnummer ");
+string personnummer = Console.ReadLine();
+double personNummer = double.Parse(personnummer);
+
+if (personNummer > 201127.9999);
+Console.WriteLine("Du är född före 1920 "); 
+if (personNummer < 201128.9999)
+Console.WriteLine("Du är född efter 1920 ");
+  }
+}
+/*Console.WriteLine("Skriv in dina fyra sista siffror ");
+string fyra_sista = Console.ReadLine();
+double fyra_Sista = double.Parse(fyra_sista);
+double hela_personnummer = personNummer + fyra_Sista;*/
 
 
