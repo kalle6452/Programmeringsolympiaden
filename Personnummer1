@@ -1,0 +1,18 @@
+
+using System;
+
+class MainClass {
+  public static void Main (string[] args) {
+Console.WriteLine("Skriv in dina första 6 siffror i ditt personnummer ");
+string personnummer = Console.ReadLine();
+int personNummer = int.Parse(personnummer);
+Console.WriteLine("Skriv in dina fyra sista siffror ");
+string fyra_sista = Console.ReadLine();
+int fyra_Sista = int.Parse(fyra_sista);
+int hela_personnummer = personNummer + fyra_Sista;
+if (hela_personnummer < 201127+9999);
+Console.WriteLine("Du är född före 1920 "); 
+if (hela_personnummer > 201127-9999)
+Console.WriteLine("Du är född efter 1920 ");
+  }
+}
